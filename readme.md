@@ -2,6 +2,10 @@
 
 Adds prefix to all paths in your HTML that are starting from root, which is useful when your site is not hosted at the root.
 
+```sh
+yarn add posthtml-path-prefix
+```
+
 Add this plugin to your `posthtml.config.js` and configure the root directory where your site will be hosted at:
 
 ```js
