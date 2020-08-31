@@ -1,0 +1,30 @@
+{
+  "name": "posthtml-path-prefix",
+  "description": "Adds a prefix to all the paths for when the site is not hosted at the root of its domain",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silvenon/posthtml-path-prefix"
+  },
+  "homepage": "https://github.com/silvenon/posthtml-path-prefix#readme",
+  "scripts": {
+    "lint": "eslint . --report-unused-disable-directives",
+    "test": "jest",
+    "prepublishOnly": "yarn lint && yarn test"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "dedent": "^0.7.0",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.2.13",
+    "posthtml": "^0.13.3",
+    "prettier": "^2.1.1"
+  }
+}
